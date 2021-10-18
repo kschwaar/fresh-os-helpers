@@ -35,6 +35,10 @@ alias dcd="docker-compose down"  # stops containers in the docker-compose.yml fi
 alias dcs="docker-compose stop"  # stops containers in the docker-compose.yml file (can be restarted)
 alias dcu="docker-compose up -d" # starts containers in the docker-compose.yml file
 alias dcr="dcd && dcu"           # rebuilds containers in the docker-compose.yml file
+alias gstat='git status'
+alias glog='git log'
+alias gdif='git diff'
+alias ssql='mysql -u root -h 127.0.0.1 -p'
 
 
 ## END aliases
