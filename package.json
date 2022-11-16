@@ -1,0 +1,31 @@
+{
+  "name": "fresh-os-helpers",
+  "version": "1.0.0",
+  "description": "fish functions and aliases for a customized cli workflow",
+  "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "format": "prettier -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschwaar/fresh-os-helpers.git"
+  },
+  "keywords": [
+    "fish"
+  ],
+  "author": "Kevin Schwaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kschwaar/fresh-os-helpers/issues"
+  },
+  "homepage": "https://github.com/kschwaar/fresh-os-helpers#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "prettier": "^2.7.1"
+  }
+}
